@@ -1,25 +1,23 @@
-.contact-form2-wrapper {
-  display: contents;
-}
- 
-.contact-form2-contact5 {
+.contactanos-contact5 {
   display: flex;
+  padding: var(--dl-layout-space-twounits);
   position: relative;
   align-items: center;
   flex-direction: column;
   background-color: #212427;
 }
  
-.contact-form2-max-width {
-  width: auto;
+.contactanos-max-width {
+  align-self: center;
   padding-top: var(--dl-layout-space-unit);
   padding-left: var(--dl-layout-space-twounits);
   padding-right: var(--dl-layout-space-twounits);
+  flex-direction: column;
   padding-bottom: var(--dl-layout-space-unit);
   background-color: #8d806f;
 }
  
-.contact-form2-section-title {
+.contactanos-section-title {
   gap: var(--dl-layout-space-unit);
   display: flex;
   align-self: flex-start;
@@ -27,7 +25,7 @@
   flex-direction: column;
 }
  
-.contact-form2-contact-info {
+.contactanos-contact-info {
   gap: 16px;
   display: flex;
   padding: 8px 0;
@@ -36,26 +34,26 @@
   flex-direction: column;
 }
  
-.contact-form2-row1 {
+.contactanos-row1 {
   gap: 16px;
   display: flex;
   align-items: flex-start;
 }
  
-.contact-form2-row2 {
+.contactanos-row2 {
   gap: 16px;
   display: flex;
   align-items: flex-start;
 }
  
-.contact-form2-row3 {
+.contactanos-row3 {
   gap: var(--dl-layout-space-unit);
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: flex-start;
 }
  
-.contact-form2-form {
+.contactanos-form {
   gap: var(--dl-layout-space-oneandhalfunits);
   flex: 1;
   width: 100%;
@@ -67,7 +65,7 @@
   flex-direction: column;
 }
  
-.contact-form2-input1 {
+.contactanos-input1 {
   gap: 8px;
   display: flex;
   align-self: stretch;
@@ -75,11 +73,11 @@
   flex-direction: column;
 }
  
-.contact-form2-text-input1 {
+.contactanos-text-input1 {
   width: 100%;
 }
  
-.contact-form2-input2 {
+.contactanos-input2 {
   gap: 8px;
   display: flex;
   align-self: stretch;
@@ -87,11 +85,11 @@
   flex-direction: column;
 }
  
-.contact-form2-text-input2 {
+.contactanos-text-input2 {
   width: 100%;
 }
  
-.contact-form2-input3 {
+.contactanos-input3 {
   gap: 8px;
   display: flex;
   align-self: stretch;
@@ -99,30 +97,22 @@
   flex-direction: column;
 }
  
-.contact-form2-textarea {
+.contactanos-textarea {
   width: 100%;
 }
  
-.contact-form2-checkbox {
+.contactanos-checkbox {
   gap: var(--dl-layout-space-unit);
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
 }
  
-.contactanos-fragment4 {
+.contactanos-fragment1 {
   display: contents;
 }
  
-.contactanos-text4 {
-  display: inline-block;
-}
- 
-.contactanos-fragment3 {
-  display: contents;
-}
- 
-.contactanos-text3 {
+.contactanos-text5 {
   display: inline-block;
 }
  
@@ -130,73 +120,54 @@
   display: contents;
 }
  
-.contactanos-text2 {
+.contactanos-text6 {
   display: inline-block;
 }
  
-.contactanos-fragment1 {
+.contactanos-fragment3 {
   display: contents;
 }
  
-.contactanos-text1 {
+.contactanos-text7 {
   display: inline-block;
 }
  
+.contactanos-fragment4 {
+  display: contents;
+}
+ 
+.contactanos-text8 {
+  display: inline-block;
+}
+ 
+.contactanosroot-class-name {
+  fill: var(--dl-color-theme-neutral-dark);
+  color: var(--dl-color-theme-neutral-dark);
+  padding-top: var(--dl-layout-space-twounits);
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: var(--dl-layout-space-twounits);
+}
+ 
 @media(max-width: 991px) {
-  .contact-form2-max-width {
+  .contactanos-max-width {
     flex-direction: column;
   }
-  .contact-form2-content {
+  .contactanos-content {
     width: 100%;
   }
-  .contact-form2-form {
+  .contactanos-form {
     width: 100%;
   }
 }
  
 @media(max-width: 479px) {
-  .contact-form2-max-width {
+  .contactanos-max-width {
     width: 100%;
   }
-  .contact-form2-form {
+  .contactanos-form {
     width: auto;
     align-self: center;
     padding-left: 0px;
   }
-}
-
-.contactanos-container {
-  background-color: #212427;
-}
- 
-.contactanos-fragment1 {
-  display: contents;
-}
- 
-.contactanos-text1 {
-  display: inline-block;
-}
- 
-.contactanos-fragment2 {
-  display: contents;
-}
- 
-.contactanos-text2 {
-  display: inline-block;
-}
- 
-.contactanos-fragment3 {
-  display: contents;
-}
- 
-.contactanos-text3 {
-  display: inline-block;
-}
- 
-.contactanos-fragment4 {
-  display: contents;
-}
- 
-.contactanos-text4 {
-  display: inline-block;
 }

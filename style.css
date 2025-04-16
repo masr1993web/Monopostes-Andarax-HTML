@@ -437,11 +437,12 @@
 .thq-animated-group-horizontal {
   gap: var(--dl-layout-space-unit);
   display: flex;
-  position: relative;
-  flex-wrap: nowrap;
+  animation: scroll-x 40s linear infinite;
   min-width: 100%;
   align-items: center;
+  flex-shrink: 0;
   justify-content: space-around;
+  animation-direction: initial;
 }
  
 .thq-animated-group-container-vertical {

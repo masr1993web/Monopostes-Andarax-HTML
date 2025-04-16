@@ -33,7 +33,7 @@
   justify-content: center;
 }
  
-.encabezado-container {
+.encabezado-container1 {
   flex: 0 0 auto;
   width: auto;
   border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -59,55 +59,94 @@
   width: 100%;
   display: flex;
   position: relative;
-  align-items: flex-start;
+  align-items: flex-end;
+  padding-left: var(--dl-layout-space-twounits);
+  padding-right: var(--dl-layout-space-twounits);
   flex-direction: column;
+  justify-content: center;
 }
  
-.encabezado-row-container1 {
+.encabezado-row-container {
   flex: 0;
   width: 100%;
   overflow: hidden;
   aspect-ratio: auto;
 }
  
-.encabezado-strip {
+.encabezado-strip1 {
   height: 100%;
-  overflow: hidden;
 }
  
-.encabezado-placeholder-image2 {
+.encabezado-placeholder-image11 {
   width: 400px;
   height: 400px;
 }
  
-.encabezado-placeholder-image3 {
+.encabezado-placeholder-image12 {
   width: 400px;
   height: 400px;
 }
  
-.encabezado-placeholder-image4 {
+.encabezado-placeholder-image13 {
   width: 400px;
   height: 400px;
 }
  
-.encabezado-placeholder-image5 {
+.encabezado-placeholder-image14 {
   width: 400px;
   height: 400px;
 }
  
-.encabezado-placeholder-image6 {
+.encabezado-placeholder-image15 {
   width: 400px;
   height: 400px;
 }
  
-.encabezado-placeholder-image7 {
+.encabezado-placeholder-image16 {
   width: 400px;
   height: 400px;
 }
  
-.encabezado-row-container2 {
-  width: 100%;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
+.encabezado-container3 {
+  display: contents;
+}
+ 
+.encabezado-strip2 {
+  height: 100%;
+}
+ 
+.encabezado-placeholder-image18 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.encabezado-placeholder-image19 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.encabezado-placeholder-image20 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.encabezado-placeholder-image21 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.encabezado-placeholder-image22 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.encabezado-placeholder-image23 {
+  width: 400px;
+  height: 400px;
+}
+ 
+.encabezado-container5 {
+  display: contents;
 }
  
 .encabezado-fragment {
@@ -119,6 +158,7 @@
 }
  
 .encabezadoroot-class-name {
+  overflow: hidden;
   padding-top: var(--dl-layout-space-threeunits);
   padding-bottom: var(--dl-layout-space-threeunits);
   background-color: #212427;
@@ -141,5 +181,7 @@
   .encabezadoroot-class-name {
     width: 100%;
     overflow: hidden;
+    padding-top: var(--dl-layout-space-twounits);
+    padding-bottom: var(--dl-layout-space-twounits);
   }
 }
